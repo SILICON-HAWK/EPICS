@@ -6,6 +6,10 @@ html.lb-disable-scrolling {
   width: 100vw;
 }
 
+.blackColor{
+  color: black !important;
+}
+
 .lightboxOverlay {
   position: absolute;
   top: 0;

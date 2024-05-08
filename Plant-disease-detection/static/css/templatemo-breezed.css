@@ -2,27 +2,9 @@
 
 Breezed Template
 
-https://templatemo.com/tm-543-breezed
-
+CSS for the first page and and background stuff
 */
 
-/* ---------------------------------------------
-Table of contents
-------------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. banner
-06. features
-07. testimonials
-08. contact
-09. footer
-10. preloader
-11. search
-12. portfolio
-
---------------------------------------------- */
 /* 
 ---------------------------------------------
 font & reset css
@@ -42,6 +24,10 @@ figure, header, nav, section, article, aside, footer, figcaption {
   padding: 0;
   border: 0;
   outline: 0;
+}
+.GroupMembers > ul > li{
+font-size: 30px;
+color: navajowhite;
 }
 
 .clearfix:after {
@@ -71,6 +57,8 @@ ul, li {
   list-style: none;
 }
 
+
+
 header, nav, section, article, aside, footer, hgroup {
   display: block;
 }
@@ -94,6 +82,7 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  color: navajowhite !important;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -361,8 +350,8 @@ header
 
 .header-area .main-nav .logo {
   line-height: 80px;
-  color: #f90000;;
-  font-size: 28px;
+  color: navy;
+  font-size: 39px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -444,8 +433,10 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #fff!important;
-  opacity: 0.5;
+  color: navy !important;
+  font-weight: bolder;
+  opacity: 0.8;
+  font-size: 26px;
 }
 
 .background-header .main-nav .nav li:hover a,
@@ -647,7 +638,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #5fb759;
+  color: #0f6a08;
 }
 
 @media (max-width: 1200px) {
@@ -666,7 +657,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #5fb759!important;
+    color: #0f6a08!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -1114,7 +1105,8 @@ testimonials
 #testimonials {
   margin-top: 14px;
   padding: 80px 0px;
-  padding: 120px 0px;
+  padding-top: 120px;
+  padding-bottom: 30px;
   background-image: url(../images/slide-03.jpg);
   background-position: center center;
   background-repeat: no-repeat;
