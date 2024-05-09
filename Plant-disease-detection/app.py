@@ -58,27 +58,6 @@ def input_crop_recommendation():
     return render_template('crop_recomdation.html')
 
 
-@app.route('/data', methods=['POST', 'GET'])
-def submit():
-    if request.method == 'POST':
-        name = request.form['name']
-        phone = int(request.form['phone'])
-        email = request.form['email']
-        subject = request.form['subject']
-        message = request.form['message']
-
-        print("Name Of User:", name)
-        print("Phone no:", phone)
-        print("Email:", email)
-        print("subject:", subject)
-        print("message:", message)
-
-        return render_template('index.html')
-
-    else:
-        return render_template('index.html')
-
-
 @app.route('/predictioncotton', methods=['POST'])
 def predictioncotton():
     global COUNT
